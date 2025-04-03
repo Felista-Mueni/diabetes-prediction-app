@@ -3,7 +3,7 @@ import pickle
 import streamlit as st
 
 # 3. Loading the Trained Logistic Regression Model
-loaded_model = pickle.load(open("C:/Users/user/Python Scripts/trained_model.sav", 'rb'))
+loaded_model = pickle.load(open("trained_model.sav", 'rb'))
 
 
 # Create a function to for prediction
